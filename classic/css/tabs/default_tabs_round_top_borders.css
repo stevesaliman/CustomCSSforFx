@@ -4,7 +4,7 @@
 
 
 :root {
-  --default_tab_border_roundness: 5px;
+  --default_tab_border_roundness: 20px;
 }
 
 /* tab top border roundness */

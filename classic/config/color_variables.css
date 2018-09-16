@@ -12,19 +12,26 @@
 
 /* default colors */
 :root {
-  --general_toolbar_color_toolbars: linear-gradient(#f9f9fa,#f9f9fa) !important; /* (to bottom,#FFCC99,#FFCC99) */
-  --general_toolbar_color_navbar: linear-gradient(#f9f9fa,#f9f9fa) !important; /* (to bottom,#FFCC99,#FFCC99) */
+  /* Tool bar color when on top, and the bookmarks toolbar. The bottom is a little darker than the top so we can see the top of the tabs. */
+  --general_toolbar_color_toolbars: linear-gradient(#006060,#0b5757) !important; /* (to bottom,#FFCC99,#FFCC99) */
+  --general_toolbar_color_navbar: linear-gradient(#006060,#006060) !important; /* (to bottom,#FFCC99,#FFCC99) */
   --general_toolbar_text_color: inherit !important;
   --general_toolbar_text_shadow: transparent !important;
-  --tabs_toolbar_color_tabs_not_on_top: linear-gradient(#f9f9fa,#f9f9fa) !important;  /* (to bottom,#FFCC99,#FFCC99) */
+  /* tab color when not on top.  Also color between buttons. The top should
+     match the bottom of the --general_toolbar_color_toolbars for continuity
+     and it shoud get lighter as we go down so we see an outline. */
+  --tabs_toolbar_color_tabs_not_on_top: linear-gradient(#0b5757,#14a6a6) !important;  /* (to bottom,#FFCC99,#FFCC99) */
   --tabs_toolbar_border-tnot_normal_mode_size: 1px !important;
   --tabs_toolbar_border-tnot_normal_mode: var(--tabs-border-color) !important;
-  --colored_menubar_background_image: linear-gradient(#f9f9fa,#f9f9fa) !important;  /* (to bottom,#FFCC99,#FFCC99) */
+  /** TODO: Figure out this one.  It seems to be behind tabs */
+  --colored_menubar_background_image: linear-gradient(#ff0000,#ff0000) !important;  /* (to bottom,#FFCC99,#FFCC99) */
   --colored_menubar_text_color: black !important;
-  --classic_squared_tabs_active_tab: linear-gradient(to top,#f9f9fa,#f9f9fa,#f9f9fa) !important; /* (to bottom,#FF8800,#FFCC99) */
-  --classic_squared_tabs_hovered_tabs: linear-gradient(to top,#cac7c1,#d5d2cc,#e8e6e2) !important; /* (to bottom,#FF9900,#FF6600) */
-  --classic_squared_tabs_other_tabs: linear-gradient(to top,#aeaba5,#c1beb7,#c9c6be) !important; /* (to bottom,#FFCC99,#CCCCCC) */
-  --classic_squared_tabs_unloaded_tabs: linear-gradient(to top,#aeaba5,#c1beb7,#c9c6be) !important; /* (to bottom,#FFCC99,#CCCCCC) */
+  /* Classic squared tabs are only for when the tabs are above everything.
+     When they aren't colors are in custom_tab_color_settings.css */
+  --classic_squared_tabs_active_tab: linear-gradient(to top,#267777,#267777,#267777) !important; /* (to bottom,#FF8800,#FFCC99) */
+  --classic_squared_tabs_hovered_tabs: linear-gradient(to top,#267777,#267777,#267777) !important; /* (to bottom,#FF9900,#FF6600) */
+  --classic_squared_tabs_other_tabs: linear-gradient(to top,#006060,#006060,#006060) !important; /* (to bottom,#FFCC99,#CCCCCC) */
+  --classic_squared_tabs_unloaded_tabs: linear-gradient(to top,#006060,#006060,#006060) !important; /* (to bottom,#FFCC99,#CCCCCC) */
   --classic_squared_tabs-border_size: 1px;
   --classic_squared_tabs-border1: #5f7181 !important;
   --classic_squared_tabs-border2: rgba(0,0,0,.2) !important;

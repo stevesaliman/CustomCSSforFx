@@ -95,7 +95,7 @@
 
 /* COLOR VARIABLES FOR DEFAULT BROWSER THEME ONLY - MAIN UI - [only use one at a time] **********/
 /* [!] set own colors for tabs & toolbars inside 'color_variables.css' or use available presets */
-@import "./config/color_variables.css"; /**/  /* <- default 'grey' colors */
+@import "./config/color_variables.css"; /**/  /* <- default colors, modified by Steve. */
 /* @import "./config/color_variables_aero.css"; /**/  /* <- 'AeroBlue' colors (Win 7 Aero) */
 /* @import "./config/color_variables_classic-grey.css"; /**/  /* <- 'classic grey' colors (Win Classic) */
 /* @import "./config/color_variables_fx3.css"; /**/  /* <- 'Firefox 3-like' blueish colors */
@@ -112,9 +112,9 @@
 /************************************************************************************************/
 
 /* navigation toolbar buttons appearance - [only use one at a time] *****************************/
-@import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
+/* @import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_v2.css"; /**/
-/* @import "./css/buttons/buttons_on_navbar_glass_appearance.css";			/* <--- good for Dark themes */
+@import "./css/buttons/buttons_on_navbar_glass_appearance.css";			/* <--- good for Dark themes and Steve */
 /* @import "./css/buttons/buttons_on_navbar_osx_appearance.css"; /**/
 
 /* navigation toolbar buttons - button roundness (edit file to set different roundness) *********/
@@ -134,6 +134,7 @@
 /* @import "./css/buttons/buttons_on_navbar_more_compact_mode.css"; /**/
 
 /* icon appearance - [only use one at a time] (custom icons do not scale in HiDPI modes) ********/
+/* TODO: Steve: take a look at these. */
 @import "./css/buttons/icons_colorized.css"; /**/
 /* @import "./css/buttons/icons_white_icons.css"; /**/
 /* @import "./css/buttons/icons_custom_icons.css"; /**/  /* aka "Mozilla Mix" from CTB */
@@ -156,8 +157,8 @@
 
 /* bookmarks toolbar - buttons appearance - [only use one at a time] ****************************/
 /* old bookmarks toolbar button appearance ******************************************************/
-@import "./css/buttons/buttons_on_bookmarks_toolbar_old_size_and_appearance.css"; /**/  /* Windows only */
-/* @import "./css/buttons/buttons_on_bookmarks_toolbar_classic_appearance.css"; /**/
+/* @import "./css/buttons/buttons_on_bookmarks_toolbar_old_size_and_appearance.css"; /**/  /* Windows only */
+@import "./css/buttons/buttons_on_bookmarks_toolbar_classic_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_bookmarks_toolbar_classic_appearance_items.css"; /**/
 
 /* bookmarks menu button - 'button & popup' appearance ******************************************/
@@ -272,7 +273,8 @@
 /************************************************************************************************/
 
 /* custom tab appearance - [only use one at a time] *********************************************/
-@import "./css/tabs/classic_squared_tabs.css"; /**/
+/* Or none for tabs not on top. */
+/* @import "./css/tabs/classic_squared_tabs.css"; /**/
 /* @import "./css/tabs/classic_squared_tabs_australized.css"; /**/
 
 /* custom tab colors are set inside color_variables***.css file(s) ******************************/
@@ -288,7 +290,7 @@
 /* - TABS BELOW TITLEBAR (Fx56-like) ************************************************************/
 /* @import "./css/tabs/tabs_below_titlebar_above_navigation_toolbar.css"; /**/
 /* - TABS BELOW NAVIGATION AND BOOKMARKS TOOLBARS (tabs not on top) *****************************/
-/* @import "./css/tabs/tabs_below_navigation_toolbar.css"; /**/ 									/* <-- tabs not on top */
+@import "./css/tabs/tabs_below_navigation_toolbar.css"; /**/ 									/* <-- tabs not on top */
 /* @import "./css/tabs/tabs_below_navigation_toolbar_macOS_fix.css"; /**/ 						/* <-- macOS fix */
 /* - TABS BELOW MAIN CONTENT (tabs on bottom) - EXPERIMENTAL ************************************/
 /* [!] SUPPORT THREAD: https://github.com/aris-t2/customcssforfx/issues/33 **********************/
@@ -304,7 +306,7 @@
 
 /* TAB BACKGROUND COLORS for default/active/hovered/unloaded tabs and 'new tab' tab *************/
 /* edit target file to set own custom colors ****************************************************/
-/* @import "./config/custom_tab_color_settings.css"; /**/
+@import "./config/custom_tab_color_settings.css"; /**/
 /* TAB TEXT colors/shadow/weight/style for default/active/hovered/unloaded tabs *****************/
 /* edit target file to set own custom colors ****************************************************/
 /* @import "./config/custom_tab_text_settings.css"; /**/
@@ -321,7 +323,7 @@
 /* TAB TITLE IN FIREFOX TITLEBAR (Windows only) *************************************************/
 /* [!] some internal pages only show default browser title **************************************/
 /* [!] might not always work correctly **********************************************************/
-/* @import "./css/tabs/tab_title_in_firefox_titlebar.css"; /**/
+@import "./css/tabs/tab_title_in_firefox_titlebar.css"; /**/
 /* @import "./css/tabs/tab_title_in_firefox_titlebar_centered.css"; /**/
 
 /* restore empty/missing tab favicon - [only use one at a time] *********************************/
@@ -355,13 +357,13 @@
 
 /* DEFAULT TABS - use only, if 'classic squared tabs' are disabled ******************************/
 /* @import "./css/tabs/default_tabs_tab_border.css"; /**/
-/* @import "./css/tabs/default_tabs_round_top_borders.css"; /**/
-/* @import "./css/tabs/default_tabs_tab_containers_full_line.css"; /**/
+@import "./css/tabs/default_tabs_round_top_borders.css"; /**/
+@import "./css/tabs/default_tabs_tab_containers_full_line.css"; /**/
 /* tab background/color settings - [only use one at a time] *************************************/
 /* @import "./css/tabs/default_tabs_tab_background_appearance.css"; /**/
 /* tab line settings - [only use one at a time] *************************************************/
 /* @import "./css/tabs/default_tabs_no_tab_line.css"; /**/
-/* @import "./css/tabs/default_tabs_static_tab_line.css"; /**/
+@import "./css/tabs/default_tabs_static_tab_line.css"; /**/
 /* @import "./css/tabs/default_tabs_tab_line_purple_in_private_mode.css"; /**/
 
 /* other tab settings ***************************************************************************/

@@ -1,9 +1,13 @@
 ## Downloads for Firefox Quantum (57+)
+My own customizations to the original project.
 
 **[Classic Theme Restorer / Classic Toolbar Buttons / GlassMyFox CSS tweaks](https://github.com/Aris-t2/CustomCSSforFx/issues/2)**  
 **[NoiaButtons CSS tweaks](https://github.com/Aris-t2/CustomCSSforFx/releases/tag/NoiaButtons)** / **[Custom Scrollbars](https://github.com/Aris-t2/Scrollbars/releases)**  
 
 ## Want to support this project?
+
+The link below was provided by the original author, who is the one doing the 
+ongoing development of these files.
 
 **[[ Paypal Me ]](https://www.paypal.me/tkpay)**  
 
@@ -31,7 +35,7 @@ or `about:profiles > Root Directory > Open Folder`
 **2.** User styles belong into `\chrome\` folder. Create it, if there is none yet. It should look like this afterwards:  
 `\ PROFILE FOLDER NAME \chrome\`  
 
-**3.** Copy `userChrome.css`, `userContent.css` and `\config\`, `\css\`, `\image\` folders into `\chrome\` folder. It should look like this afterwards:  
+**3.** Copy `userChrome.css`, `userContent.css` and `\config\`, `\css\`, `\image\` folders from the `classic` directory into the Firefox profile's `\chrome\` folder. It should look like this afterwards:  
 `\chrome\config\`  
 `\chrome\css\`  
 `\chrome\image\`  

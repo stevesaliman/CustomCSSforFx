@@ -15,6 +15,7 @@
   /* Tool bar color when on top, and the bookmarks toolbar. The bottom is a little darker than the top so we can see the top of the tabs. */
   --general_toolbar_color_toolbars: linear-gradient(#006060,#0b5757) !important; /* (to bottom,#FFCC99,#FFCC99) */
   --general_toolbar_color_navbar: linear-gradient(#006060,#006060) !important; /* (to bottom,#FFCC99,#FFCC99) */
+  --general_toolbar_color_navbar_hover: linear-gradient(#267777,#267777) !important; /* (to bottom,#FFCC99,#FFCC99) */
   --general_toolbar_text_color: inherit !important;
   --general_toolbar_text_shadow: transparent !important;
   /* tab color when not on top.  Also color between buttons. The top should

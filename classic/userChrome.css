@@ -112,9 +112,10 @@
 /************************************************************************************************/
 
 /* navigation toolbar buttons appearance - [only use one at a time] *****************************/
+/* Or use none to get completely transparent buttons, e.g. no outline */
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_v2.css"; /**/
-@import "./css/buttons/buttons_on_navbar_glass_appearance.css";			/* <--- good for Dark themes and Steve */
+/* @import "./css/buttons/buttons_on_navbar_glass_appearance.css";			/* <--- good for Dark themes and Steve */
 /* @import "./css/buttons/buttons_on_navbar_osx_appearance.css"; /**/
 
 /* navigation toolbar buttons - button roundness (edit file to set different roundness) *********/
@@ -134,9 +135,8 @@
 /* @import "./css/buttons/buttons_on_navbar_more_compact_mode.css"; /**/
 
 /* icon appearance - [only use one at a time] (custom icons do not scale in HiDPI modes) ********/
-/* TODO: Steve: take a look at these. */
-@import "./css/buttons/icons_colorized.css"; /**/
-/* @import "./css/buttons/icons_white_icons.css"; /**/
+/* @import "./css/buttons/icons_colorized.css"; /**/
+/* @import "./css/buttons/icons_white_icons.css"; /* */
 /* @import "./css/buttons/icons_custom_icons.css"; /**/  /* aka "Mozilla Mix" from CTB */
 /* @import "./css/buttons/icons_custom_icons_fx1.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx2.css"; /**/
@@ -152,7 +152,7 @@
 /* @import "./css/buttons/icons_custom_icons_old_chrome.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_old_osx.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_tango.css"; /**/
-/* @import "./css/buttons/icons_custom_icons_fx45.css"; /**/
+@import "./css/buttons/icons_custom_icons_fx45.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx45_inverted.css"; /**/
 
 /* bookmarks toolbar - buttons appearance - [only use one at a time] ****************************/

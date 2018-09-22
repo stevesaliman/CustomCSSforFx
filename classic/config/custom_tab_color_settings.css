@@ -38,6 +38,7 @@
 /* default tab *****************************/
 #TabsToolbar #tabbrowser-tabs .tabbrowser-tab .tab-content {
   background: var(--default_tabs_bg_default) !important;
+  border-top: 1px solid #005252 !important;
   border-left: 1px solid var(--default_tabs_border) !important;
 }
 
